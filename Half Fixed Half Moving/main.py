@@ -116,4 +116,6 @@ while True:
     elif globalvariables.messageID == 2:
         showMessage(3,1,globalvariables.message3)
     elif globalvariables.messageID == 3:
-        showMessageFixedMoving(1,8,globalvariables.message3,globalvariables.messageVSA,-8)
+        showMessageFixedMoving(4,8,globalvariables.message3,globalvariables.messageVSA,-8)
+    elif globalvariables.messageID == 4:
+        showMessageFixedMoving(1,8,globalvariables.messageVSA,globalvariables.message3,0)
